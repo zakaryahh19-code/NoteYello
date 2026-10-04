@@ -5,7 +5,7 @@ package.domain = com.noteyello
 
 source.dir = .
 source.include_exts = py,png,jpg,kv,atlas,ico,ttf
-source.include_patterns = image/*,icons/*
+source.include_patterns = icons/*
 
 version = 1.01
 requirements = hostpython3==3.11.9,python3==3.11.9,kivy==2.3.0,pillow,pyjnius,android
@@ -13,9 +13,9 @@ requirements = hostpython3==3.11.9,python3==3.11.9,kivy==2.3.0,pillow,pyjnius,an
 orientation = portrait
 fullscreen = 0
 
-icon.filename = %(source.dir)s/image/icon.png
-presplash.filename = %(source.dir)s/image/icmd.png
-presplash.color = #000000
+icon.filename = %(source.dir)s/icons/icon.png
+presplash.filename = %(source.dir)s/icons/icmd.png
+presplash.color = #FFC400
 
 android.permissions = READ_EXTERNAL_STORAGE,WRITE_EXTERNAL_STORAGE,READ_MEDIA_IMAGES
 
